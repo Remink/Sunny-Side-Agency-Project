@@ -1,0 +1,119 @@
+body{
+	margin: 0px;
+
+}
+
+.mobile{
+	display: none;
+}
+
+@font-face {
+
+	font-family: Fraunces;
+	src:url(font/Fraunces-VariableFont.ttf);
+}
+@font-face {
+	font-family: Barlow;
+	src:url(font/Barlow-Regular.ttf);
+}
+@font-face {
+	font-family: Fraunces-bold;
+	src:url(font/Fraunces_28pt-Bold.ttf);
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {min-width: 33.33%;}
+.col-5 {min-width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+nav ul{
+	display: flex;
+	width:90%;
+	margin: 0px;
+}
+
+nav ul li{
+	list-style: none;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 15px;
+	font-size: 17px;
+	color:white;
+	font-family: Barlow;
+	font-weight: 500;
+}
+
+.logo{
+	width:129px;
+	height:25px;
+}
+
+h1{
+
+
+}
+.menu{
+	position: absolute;
+	top:30px;
+	left:3%;
+	display: flex;
+	justify-content: space-between;
+	width:95%;
+	font-size: 18px;
+}
+.title{
+	position: absolute;
+	width:100%;
+	text-align:center;
+	top: 140px;
+	font-size: 1.6em;
+	letter-spacing: 14px;
+	font-family: Fraunces-bold;
+	color: white;
+
+}
+
+.HeaderImage{
+	width:100%;
+}
+
+.contact{
+	background-color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 27px;
+	padding-right: 27px;
+	border-radius: 100px;
+	font-weight: 700;
+	color:black;
+	font-family: Fraunces;
+	font-size: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+  nav ul{
+	  flex-wrap: wrap;
+	  justify-content: center;
+  }
+}
+
+@media screen and (max-width: 540px) {
+
+	.desktop{
+		display: none;
+	}
+	.mobile{
+		display: block;
+	}
+
+}
